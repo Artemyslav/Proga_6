@@ -7,7 +7,9 @@ python genvar.py -name НапалковАА -group ИВТб-1302
 ---------
 Для создания data.csv, с которым и будет работать код используется (в той же папке):
 
-python gen_data.py -variant N  -seed M [-output data.csv] 
+python gen_data.py -variant N  -seed M [-output data.csv]
+
+N- номер полученного варианта, M - дата вашего рождения в формате YYYYMMDD
 
 
 ---------
